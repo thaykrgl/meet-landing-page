@@ -1,4 +1,4 @@
-# Frontend Mentor - Skilled E-Learning Landing Page
+# Frontend Mentor - Meet Landing Page
 
 This is a solution to the [Meet Landing Page](https://www.frontendmentor.io/challenges/meet-landing-page-rbTDS6OUR).
 
