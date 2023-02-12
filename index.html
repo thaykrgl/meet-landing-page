@@ -1,31 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Meet landing page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Meet Landing Page</title>
 </head>
-<body>
-  Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
 
-  Download v1.3
-  What is it?
+<body class="meet-landing-page">
 
-  01
-  Built for modern use
+  <header>
+    <div class="logo d-flex align-items-center justify-content-center">
+      <img class="img-fluid" src="/assets/logo.svg" alt="">
+    </div>
+    <div class="hero d-flex justify-content-between flex-column flex-lg-row">
+      <div class="left d-none d-lg-block">
+        <img class="img-fluid" src="assets/desktop/image-hero-left.png" alt="">
+      </div>
+      <div class="hero-tablet-img d-block d-lg-none">
+        <img class="img-fluid" src="assets/tablet/image-hero.png" alt="">
+      </div>
+      <div class="middle">
+        <h2>Group Chat
+          for Everyone</h2>
+        <p>Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
+        <div class="buttons d-flex align-items-center justify-content-center">
+          <div class="download-button">
+            <a href="javascript:;">
+              Download <span>v1.3</span>
+            </a>
+          </div>
+          <div class="info-button">
+            <a href="javascript:;">What is it?</a>
+          </div>
+        </div>
+      </div>
+      <div class="right d-none d-lg-block">
+        <img class="img-fluid" src="assets/desktop/image-hero-right.png" alt="">
+      </div>
+    </div>
+    <div class="pagination d-flex align-items-center justify-content-center">
+      <img src="/assets/desktop/pagination-01.svg" alt="">
+    </div>
+  </header>
 
-  Smarter meetings, all in one place
+  <section>
+    <div class="image-grid d-flex align-items-center justify-content-between">
+      <div class="image">
+        <img class="img-fluid" src="assets/desktop/image-woman-in-videocall.jpg" alt="">
+      </div>
+      <div class="image">
+        <img class="img-fluid" src="assets/desktop/image-women-videochatting.jpg" alt="">
+      </div>
+      <div class="image">
+        <img class="img-fluid" src="assets/desktop/image-men-in-meeting.jpg" alt="">
+      </div>
+      <div class="image">
+        <img class="img-fluid" src="assets/desktop/image-man-texting.jpg" alt="">
+      </div>
 
-  Send messages, share files, show your screen, and record your meetings — all in one 
-  workspace. Control who can join with invite-only team access, data encryption, and data export.
+    </div>
+    <div class="section-content d-flex align-items-center flex-column justify-content-center">
+      <div class="sub-heading">
+        <h5 class="text-uppercase">Built for modern use</h5>
+      </div>
+      <div class="heading">
+        <h2>Smarter meetings, all in one place</h2>
+      </div>
+      <div class="text">
+        <p>Send messages, share files, show your screen, and record your meetings — all in one workspace. Control who
+          can join with invite-only team access, data encryption, and data export.</p>
+      </div>
+    </div>
+  </section>
 
-  02
-  Experience more together
-  Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
+  <footer>
+    <div class="pagination d-flex align-items-center justify-content-center">
+      <img class="img-fluid" src="assets/desktop/pagination-02.svg" alt="">
+    </div>
+    <div class="flex-container d-flex align-items-center justify-content-between">
+      <div class="left">
+        <h4>Experience more together</h4>
+      </div>
+      <div class="middle">
+        <p>Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
+      </div>
+      <div class="right">
+        <div class="download-button d-flex align-items-center justify-content-center">
+          <a href="javascript:;">Download <span>v1.3</span></a>
+        </div>
+      </div>
 
-  Download v1.3
+    </div>
+  </footer>
+
 </body>
+
 </html>
